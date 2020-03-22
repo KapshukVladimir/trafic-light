@@ -43,6 +43,7 @@ function mainTimer() {
             red.classList.remove('active');
         }
         if (count < 2 && count >= 0) {
+            p.remove();
             activeYellow();
         }
         if (count == -1) {
